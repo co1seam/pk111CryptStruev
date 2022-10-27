@@ -1,0 +1,7 @@
+C:\Users\IT\source\repos\pk111CryptStruev\bin\Debug\pk111CryptStruev.exe.config
+C:\Users\IT\source\repos\pk111CryptStruev\bin\Debug\pk111CryptStruev.exe
+C:\Users\IT\source\repos\pk111CryptStruev\bin\Debug\pk111CryptStruev.pdb
+C:\Users\IT\source\repos\pk111CryptStruev\obj\Debug\pk111CryptStruev.csproj.AssemblyReference.cache
+C:\Users\IT\source\repos\pk111CryptStruev\obj\Debug\pk111CryptStruev.csproj.CoreCompileInputs.cache
+C:\Users\IT\source\repos\pk111CryptStruev\obj\Debug\pk111CryptStruev.exe
+C:\Users\IT\source\repos\pk111CryptStruev\obj\Debug\pk111CryptStruev.pdb
