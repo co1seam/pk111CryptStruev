@@ -14,6 +14,21 @@ namespace pk111CryptStruev
             Console.WriteLine("Введите текст не длинее 200 символов с учетом пробелов и нажмите ENTER");
             string userInput = Console.ReadLine();
             Console.WriteLine("Вы написали:" + userInput);
+            Console.WriteLine("Укажите величину сдвига в виде целого числа и нажмите ENTER");
+            int shift = 0;
+            bool success = false;
+            do
+            {
+                string userInputShift = Console.ReadLine();
+                success = int.TryParse(userInputShift, out shift);
+                if (!success) {
+                    Console.WriteLine("Цифра введена неверно! Попробуйте еще раз.");
+                }
+            } while (!success);
+            //bool success = int.TryParse(Console.ReadLine(), out shift);
+            Console.WriteLine("Вы указали:" + shift);
+            Console.WriteLine("Успешность преобразования:" + success);
+            Console.ReadLine();
         }
     }
 }
