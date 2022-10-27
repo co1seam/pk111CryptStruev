@@ -10,6 +10,10 @@ namespace pk111CryptStruev
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Добро пожаловать в программу шифрования по методу 'шифр Цезаря'!");
+            Console.WriteLine("Введите текст не длинее 200 символов с учетом пробелов и нажмите ENTER");
+            string userInput = Console.ReadLine();
+            Console.WriteLine("Вы написали:" + userInput);
         }
     }
 }
